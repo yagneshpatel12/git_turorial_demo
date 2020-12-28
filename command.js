@@ -40,3 +40,6 @@ git log --since=2.days //show two day commit
 git log --since=2.weeks //show two week commit
 git log --since=2.months //show two month commit
  git log --pretty=format:"%h --%an" // hash and show author name 
+
+ git restore --staged static/hello.txt //to unstage the file
+ git checkout --static/hello.txt //go to last commit
