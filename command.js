@@ -19,3 +19,5 @@ dir/ //All dir foder ignoring by git
 
 git diff //Comparing working directory to staging area
 git diff --staged //comparing staging area to last commit
+
+git commit -a -m "direct commit" //skip the staging area direct commit ,  tracked files.
