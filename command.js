@@ -25,3 +25,18 @@ git commit -a -m "direct commit" //skip the staging area direct commit ,  tracke
 git rm first.txt //remove file and add the staging area
 git mv first.txt first_renamed.txt //Rename the file and add to staging file
 git rm --cached hello.txt  //untract the file
+
+git log -p //show all commit and his diff (difference)
+git log -p -3 //show 3 commit and his diff (difference)
+
+git log --stat //show all commit and his diff  in short summary
+git log --stat -3 //show 3 commit and his diff  in short summary
+
+git log --pretty=oneline// show all commit in oneline
+git log --pretty=short// show all commit in short
+git log --pretty=full// show all commit in full
+
+git log --since=2.days //show two day commit
+git log --since=2.weeks //show two week commit
+git log --since=2.months //show two month commit
+ git log --pretty=format:"%h --%an" // hash and show author name 
