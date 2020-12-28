@@ -21,3 +21,7 @@ git diff //Comparing working directory to staging area
 git diff --staged //comparing staging area to last commit
 
 git commit -a -m "direct commit" //skip the staging area direct commit ,  tracked files.
+
+git rm first.txt //remove file and add the staging area
+git mv first.txt first_renamed.txt //Rename the file and add to staging file
+git rm --cached hello.txt  //untract the file
