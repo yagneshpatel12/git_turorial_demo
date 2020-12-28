@@ -1,6 +1,6 @@
 git status  //check for status
-git init  // initialize a master branch
-rm -rf .git //delete the master branch
+git init  // initialize a repositary
+rm -rf .git //delete the repositary
 git add  index.html  // add any file
 git add --a  //add all file
 git add .  //add all file
