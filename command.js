@@ -3,6 +3,7 @@ git init  // initialize a master branch
 rm -rf .git //delete the master branch
 git add  index.html  // add any file
 git add --a  //add all file
+git add .  //add all file
 git commit -m "this is change"  //commit
 touch  error.log//(filename.extension name)  //Creating a blank file
 
@@ -15,3 +16,6 @@ error.log  //file name - this is ignoring by git
 dir/ //All dir foder ignoring by git
 /dir/ //outer dir folder ignoring by git
 /static/helllo.txt //this path ignoring by git 
+
+git diff //Comparing working directory to staging area
+git diff --staged //comparing staging area to last commit
