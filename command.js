@@ -5,3 +5,7 @@ git add  index.html  // add any file
 git add --a  //add all file
 git commit -m "this is change"  //commit
 touch  error.log//(filename.extension name)  //Creating a blank file
+
+//Git ignore file
+touch .gitignore  //Creating .gitignore
+error.log  //file name - this is ignoring by git
